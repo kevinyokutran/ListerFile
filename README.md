@@ -9,3 +9,11 @@
  the source path and target path are specified. If there are no file extensions entered,
  FileLister will display all files in the directory. If there are not enough command
  arguments entered, FileLister will display an error message to the user and exit.
+
+## Installation
+
+```
+cd path/to/file/FileLister/src
+javac me/joshvocal/FileLister/FileLister.java
+java me.joshvocal.FileLister.FileLister <source folder> <target file> [<extensions(s)>]
+```
