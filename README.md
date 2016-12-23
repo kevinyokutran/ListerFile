@@ -1,5 +1,7 @@
 # FileLister
 
+![FileLister Picture](https://github.com/joshvocal/FileLister/blob/master/example.png)
+
  FileLister provides a text interface display of all files of a directory
  and writes those files onto a text file. The user must enter a source path,
  a directory to search in, and a target path, where they want to write the files to,
