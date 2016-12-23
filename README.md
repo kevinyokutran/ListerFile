@@ -12,7 +12,7 @@
 
 ## Installation
 
-```
+```bash
 cd path/to/file/FileLister/src
 javac me/joshvocal/FileLister/FileLister.java
 java me.joshvocal.FileLister.FileLister <source folder> <target file> [<extensions(s)>]
