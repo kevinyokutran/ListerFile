@@ -17,3 +17,26 @@ cd path/to/file/FileLister/src
 javac me/joshvocal/FileLister/FileLister.java
 java me.joshvocal.FileLister.FileLister <source folder> <target file> [<extensions(s)>]
 ```
+
+## <source folder>
+
+The source folder is the directory path that you want to search for files.
+
+## <target file>
+
+Target file is the text file that you want to write the list of files in the directory to. If there is no text file avaliable, you can create one by adding a textfile.txt to the end of the directory path.
+
+## <extensions>
+
+You can search for files with various extentions. You may list no extensions if you want to find all files, or one to many if you want to filter your search.
+
+
+```
+java me.joshvocal.FileLister.FileLister <source folder> <target file> .pdf
+```
+
+or
+
+```
+java me.joshvocal.FileLister.FileLister <source folder> <target file> .pdf .html .mp4
+```
